@@ -979,7 +979,7 @@ static void Task_StartUseRepel(u8 taskId)
 
 static void Task_UseRepel(u8 taskId)
 {
-    if (!IsSEPlaying())
+    if (!IsSEPlaying() && !FlagGet(FLAG_INFINITE_REPEL))
     {
         VarSet(VAR_REPEL_STEP_COUNT, GetItemHoldEffectParam(gSpecialVar_ItemId));
     #if VAR_LAST_REPEL_LURE_USED != 0

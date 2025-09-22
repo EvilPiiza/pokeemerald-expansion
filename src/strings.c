@@ -22,6 +22,7 @@ const u8 gText_EggNickname[POKEMON_NAME_LENGTH + 1] = _("EGG");
 const u8 gText_Pokemon[POKEMON_NAME_LENGTH + 1] = _("POKéMON");
 const u8 gText_Player[] = _("PLAYER"); // Unused
 const u8 gText_Pokedex[] = _("POKéDEX"); // Unused
+const u8 gText_MenuRepel[] = _("Repel");
 const u8 gText_Time[] = _("TIME");
 const u8 gText_Badges[] = _("BADGES"); // Unused
 const u8 gText_AButton[] = _("A Button"); // Unused
